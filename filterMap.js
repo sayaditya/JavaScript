@@ -39,3 +39,63 @@ const books = [
 //   console.log(userBooks);
 
 
+// using map to add numbers in an array to every Element
+
+const myarr = [1,2,3,4,5,6,7,8,9,10]
+
+// chaining 
+
+const myNewarr = myarr
+                  .map((num) => num * 10)
+                  .map((num) => num + 1)
+                  .filter((num) => num >=40)
+                  
+
+
+// const myNewarr = myarr.map((num) => {return num  + 10})
+// console.log(myNewarr);
+
+
+// reduce method 
+
+const num1 = [5,2,3]
+
+/*const total = num1.reduce(function(acc,currval){
+  console.log(`acc: ${acc} and curr val : ${currval}`);
+  return acc + currval
+},1)
+
+*/
+
+// with the help of callback function
+
+const total = num1.reduce((acc,curr) => acc+curr , 1)
+
+console.log(total);
+
+const shoppingCart = [
+  {
+    itemName: "toothpaste",
+    price: 10
+  },
+  {
+    itemName: "soap",
+    price: 15
+  },
+  {
+    itemName: "bread",
+    price: 50
+  },
+  {
+    itemName: "peanut",
+    price: 34
+  }
+  
+]
+
+const priceToPay = shoppingCart.reduce((acc,item) => acc+item.price,0 )
+
+console.log(priceToPay);
+
+
+
