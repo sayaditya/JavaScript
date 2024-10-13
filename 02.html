@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Dom</title>
+</head>
+<body style="background-color:wheat; color: black;">
+    <div class="parents">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div> 
+
+    </div>
+</body>
+<script>
+    const parents = document.querySelector('.parents')
+    // console.log(parents);
+    // console.log(parents.children);
+    // console.log(parents.children[1].innerHTML);
+    // for (let i = 0; i< parents.children.length; i++  )  {
+    //     console.log(parents.children[i].innerHTML);
+    // } 
+
+
+    /// Traversing 
+
+    // parents.children[1].style.color = 'orange'
+    // parents.children[2].style.color = 'white'
+    // parents.children[3].style.color = 'red'
+
+    // console.log(parents.firstElementChild);
+    // console.log(parents.lastElementChild);
+
+    // const dayOne = document.querySelector('.day');
+    // console.log(dayOne);
+    // console.log(dayOne.parentElement);
+    // console.log(dayOne.nextElementSibling);
+    // console.log("NODES:",parents.childNodes);
+
+
+    // creating a new element 
+
+    const myDiv = document.createElement('div');
+    console.log(myDiv);
+    myDiv.className = "main"
+    myDiv.id = "myid"
+    myDiv.setAttribute ("title", "Aditya")
+    myDiv.style.backgroundColor = "green"
+    myDiv.style.padding = "10px"
+    // myDiv.innerText = "this is my Name" 
+    const addText = document.createTextNode( " say my name ")
+    myDiv.appendChild(addText)
+    document.body.appendChild(myDiv) 
+
+ 
+
+
+
+
+</script>
+</html>
