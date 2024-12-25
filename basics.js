@@ -47,15 +47,19 @@
 
 // console.log(typeof undefined);//undefined
 // console.log(typeof null);//object
-console.log(typeof Boolean);//
+console.log(typeof Boolean);
 console.log(typeof Number);
 console.log(typeof String);
 console.log(typeof Object);
 
 
-// console.log("1"+2); //12
-// console.log(1+3+"2"); //42
+console.log("1"+2); //12
+console.log(1+3+"2"); //42
+console.log("1"+"3"+2); //132
+
 // prefix and postfix 
+
+
 
 
 

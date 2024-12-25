@@ -1,7 +1,8 @@
 //  array
 
- // const myArr = [0,1,2,3,4,5]; // basic method to declare an array
+ const myArr = [0,5,2,3,4,5]; // basic method to declare an array
 // const veg = ["lauki","tinde","mirch"];
+// console.log(myArr)
 
 // const myArr2 = new Array(1,2,3,4) // new way to declare an array
 // console.log(myArr[2]);

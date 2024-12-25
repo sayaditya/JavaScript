@@ -3,7 +3,7 @@
 function myName(name){
     console.log(name)
 }
-// myName("Aditya") 
+myName("Aditya") 
 
 
 // function addTwoNumbers(number1,number2){

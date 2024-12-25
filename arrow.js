@@ -1,13 +1,13 @@
 const user = {
     username: "aditya",
     price: 999,
-    welcomeMessage: function(){
+    welcomeMessage: function(){ 
         console.log( `${this.username} , welcome to the website`); 
         console.log(this) // we can only use this function inside an object only 
-    }
-}
+    }  
+} 
 
-// user.welcomeMessage()
+//  user.welcomeMessage()
 // user.username = "adi";
 // user.welcomeMessage()
 

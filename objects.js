@@ -65,11 +65,11 @@ const regularUser = {
 
 const obj1 = {1:"a",2:"b"};
 const obj2 = {3:"c",4:"d"};
-// const obj3 ={obj1, obj2}; // this is not that method
+// const obj3 ={obj1, obj2}; // this is not the correct method
 
 // const obj3 = Object.assign({},obj1,obj2) // this is the right method to merge objects but not use widely
 
-const obj3 = {...obj1,...obj2} // this is the spread operator used to merge the objects which is used widely
+// const obj3 = {...obj1,...obj2} // this is the spread operator used to merge the objects which is used widely
 // console.log(obj3); 
 
 
@@ -95,6 +95,7 @@ const users = [
 ]
 
 users[1].email
+// console.log(users[1].email)
 // console.log(tinderUser);
 
 // console.log(Object.keys(tinderUser));
